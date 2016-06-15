@@ -62,6 +62,20 @@ public class Main {
                     return "";
                 }
         );
+        Spark.put(
+                "/edit-messsage",
+                (request, response) -> {
+                    //update message in database
+                    return "";
+                }
+        );
+        Spark.delete(
+                "/delete-message",
+                (request, response) -> {
+                    //delte message in database
+                    return "";
+                }
 
+        );
     }
 }
